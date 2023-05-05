@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "application.app",
+        "profile_name": "default",
+        "project_name": "myapp",
+        "runtime": "python3.8",
+        "s3_bucket": "myapp-bucket",
+        "aws_region": "eu-central-1",
+        "environment_variables": {
+            "FLASK_APP": "application.py"
+        },
+        "keep_warm": false
+    }
+}
